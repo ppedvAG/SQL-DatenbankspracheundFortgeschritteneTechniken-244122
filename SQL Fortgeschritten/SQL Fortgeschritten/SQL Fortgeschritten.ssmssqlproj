@@ -40,6 +40,12 @@
           <AssociatedConnUserName />
           <FullPath>01_DBDesign_Seiten und Blöcke.sql</FullPath>
         </FileNode>
+        <FileNode Name="01_forward_record_Count.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>01_forward_record_Count.sql</FullPath>
+        </FileNode>
         <FileNode Name="02_Ablauf steuern.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
@@ -81,12 +87,6 @@
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>05_QueryStore_Hints.sql</FullPath>
-        </FileNode>
-        <FileNode Name="05_Trigger.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>05_Trigger.sql</FullPath>
         </FileNode>
         <FileNode Name="05_TriggerDDL.sql">
           <AssociatedConnectionMoniker />

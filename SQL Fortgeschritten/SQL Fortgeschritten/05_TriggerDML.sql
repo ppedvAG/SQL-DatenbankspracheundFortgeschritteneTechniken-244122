@@ -68,6 +68,79 @@ select * from o where orderid = 10248
 
 --Trigger ist per se langsam
 
+--TRIGGER
+
+--DDL CREATE ALTER DROP
+--DML UP INS DEL inserted deleted
+
+--INS--> INSERTED
+--DEL--> DELETED
+--UPDATE --> INSERTED + DELETED 
+
+
+create trigger trgname on Tabelle
+for insert, update, delete
+as
+Code
+
+
+create trigger trgKunden on customers
+for INSERT, UPDATE, DELETE
+as
+select * from inserted
+select * from deleted
+
+
+update customers set companyname = companyname +'X'
+where  customerid = 'ALFKI'
+
+--TRANSACTION
+
+begin tran
+
+update tabelle --- Trigger UP-- insert andere Tabelle
+commit
+rollback
+
+
+alter table orders add RngSumme money
+
+
+--idee RngSumme muss beim Ändern der order details
+--die akt Rngsumme errechnen und in orders reinschreiben
+update [Order Details] set Quantity=1000 where orderid = 10248 and productid = 11
+create or alter trigger trg_INSUPDEL on [order details]
+for insert , update , delete --insteadof
+as
+declare @rsumme as money
+select  @rsumme = sum(unitprice *quantity)  
+from    [Order Details]
+where   orderid in (
+					select orderid from inserted
+					)
+update orders set rngsumme = @rsumme where orderid 
+in					(
+					select orderid from inserted
+					)
+select * from orders
+
+update 
+
+
+
+
+
+begin tran
+select * from [Order Details]
+update [Order Details]  set Quantity = 100 
+where orderid = 10248	and productid = 11	
+select @@TRANCOUNT
+
+rollback
+
+
+
+
 
 
 
