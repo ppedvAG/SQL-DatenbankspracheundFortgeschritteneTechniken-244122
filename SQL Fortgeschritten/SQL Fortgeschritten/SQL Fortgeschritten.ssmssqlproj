@@ -47,8 +47,8 @@
           <FullPath>01_forward_record_Count.sql</FullPath>
         </FileNode>
         <FileNode Name="02_Ablauf steuern.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>02_Ablauf steuern.sql</FullPath>
         </FileNode>
@@ -71,20 +71,20 @@
           <FullPath>04_CTE.sql</FullPath>
         </FileNode>
         <FileNode Name="05 QueryStore.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>05 QueryStore.sql</FullPath>
         </FileNode>
         <FileNode Name="05_QueryStore per TSQL.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>05_QueryStore per TSQL.sql</FullPath>
         </FileNode>
         <FileNode Name="05_QueryStore_Hints.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>05_QueryStore_Hints.sql</FullPath>
         </FileNode>
@@ -131,14 +131,14 @@
           <FullPath>08_ Pläne.sql</FullPath>
         </FileNode>
         <FileNode Name="09_TemporalTables_1_Aktivieren.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>09_TemporalTables_1_Aktivieren.sql</FullPath>
         </FileNode>
         <FileNode Name="09_TemporalTables_2_Demo.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>09_TemporalTables_2_Demo.sql</FullPath>
         </FileNode>
@@ -149,14 +149,14 @@
           <FullPath>10_WindowFunction.sql</FullPath>
         </FileNode>
         <FileNode Name="11_GRAPH.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>11_GRAPH.sql</FullPath>
         </FileNode>
         <FileNode Name="12_MAXDOP.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>12_MAXDOP.sql</FullPath>
         </FileNode>
@@ -173,22 +173,40 @@
           <FullPath>14_Joinarten.sql</FullPath>
         </FileNode>
         <FileNode Name="15_Indizes.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>15_Indizes.sql</FullPath>
         </FileNode>
         <FileNode Name="15_Volltext.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
-          <FullPath>15_Volltext.sql</FullPath>
-        </FileNode>
-        <FileNode Name="SQLQuery1.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery1.sql</FullPath>
+          <FullPath>15_Volltext.sql</FullPath>
+        </FileNode>
+        <FileNode Name="20_TabVariablen.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>20_TabVariablen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQL Server 2022 Diagnostic Information Queries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQL Server 2022 Diagnostic Information Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Wiederholung Tag 2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Wiederholung Tag 2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Wiederholung Tag1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Wiederholung Tag1.sql</FullPath>
         </FileNode>
         <FileNode Name="Z_Filetable Filestream Semantic.sql">
           <AssociatedConnectionMoniker />

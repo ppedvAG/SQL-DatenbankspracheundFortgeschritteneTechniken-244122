@@ -22,7 +22,10 @@ StartDatum datetime2 Generated always as row start not null,
 EndDatum datetime2 Generated always as row end not null, 
 Period for system_time (StartDatum, EndDatum) 
 ) 
-with (system_Versioning = ON (History_table=dbo.Contactshistory)) 
+with (system_Versioning = ON (History_table=dbo.Contactshistory
+	  ,HISTORY_RETENTION_PERIOD = 6 MONTHS
+)
+) 
 GO
 
 

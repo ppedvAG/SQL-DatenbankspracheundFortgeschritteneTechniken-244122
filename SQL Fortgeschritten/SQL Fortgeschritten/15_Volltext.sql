@@ -1,29 +1,30 @@
-SELECT  [ps_partkey]
-      ,[ps_suppkey]
-      ,[ps_supplycost]
-      ,[ps_availqty]
-      ,[ps_comment]
-  FROM [ERP_Demo].[dbo].[partsuppliers]
-  where contains(ps_comment, 'print')
+select * from products
+where contains(productname, 'tofu')
 
 
-  select * from partsuppliers where ps_Comment like '%print%'
-  
-  
-  SELECT  [ps_partkey]
-      ,[ps_suppkey]
-      ,[ps_supplycost]
-      ,[ps_availqty]
-      ,[ps_comment]
-  FROM [ERP_Demo].[dbo].[partsuppliers]
-  where contains(ps_comment, 'print')
+select * from customers
+where contains((companyname, contactname, contacttitle), 'Sales')
+
+select * from customers
+where contains((companyname, contactname, contacttitle), 'Ana')
+
+select * from Products
+where freetext(Productname, 'chef')
+
+select * from Products
+where freetext(Productname, 'chai Ikura')
+
+
+select * from Products
+where freetext(Productname, 'Anton chef ')
+
+select * from Products
+where contains(Productname, 'chef AND (Gumbo) ')
 
 
 
-  SELECT  [ps_partkey]
-      ,[ps_suppkey]
-      ,[ps_supplycost]
-      ,[ps_availqty]
-      ,[ps_comment]
-  FROM [ERP_Demo].[dbo].[partsuppliers]
-  where freetext(ps_comment, 'requests')
+select * from customers
+where contains(companyname, 'NEAR((Around,Horn),2)')
+
+
+
